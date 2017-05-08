@@ -1,0 +1,6 @@
+% Model:              Ass1_p2_3D.mph
+% Version:            COMSOL 5.2.0.166
+% Date:               Apr 6 2017, 16:08
+% Table:              Table 1 - Global Evaluation 1 (Ca)
+% Ca (F)                 C2 (F)                   err_a2 (1)
+1.4756979695E-11         1.2211510113982665E-9    0.9761196144027742
