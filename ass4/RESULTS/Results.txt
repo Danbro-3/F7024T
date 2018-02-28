@@ -1,0 +1,5 @@
+H2O Parametic, Stationary:
+Max working temperature difference: 27.5 Kelvin
+
+AIR Parametic, Stationary:
+Max working temperature difference: 3E8 Kelvin
