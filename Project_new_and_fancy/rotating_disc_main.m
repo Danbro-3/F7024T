@@ -9,10 +9,10 @@ Ry = 2.0;       % m
 N = 500;        % nodes for analytical and numerical solution
 N_E_pot = 50;   % nodes for potential energy
 
-%% Material values: Platinum
-E = 168E9;      % 015376 %[Pa] Elasticity, Youngs module
-rho = 21450;    % [kg/m^3] Density
-pois = 0.39; % Poissons ratio
+% Material values: Aluminium
+E = 68.950E9;       % 015376 %[Pa] Elasticity, Youngs module
+rho = 2.7E3;        % [kg/m^3] Density
+pois = 0.334;    % Poissons ratio
 
 %% Calculations
 % Find the analytical solution, numerical solution and potential energy
@@ -21,7 +21,7 @@ pois = 0.39; % Poissons ratio
 [E_pot_num, ~]                              = E_sol(Ri, Ry, E, pois, Omega, rho, N_E_pot);
 
 %% Plotting
-[ha, ~] = tight_subplot(2,2,[.08 .04],[.05 .03],[.03 .02]);
+[ha, ~] = tight_subplot(2,2,[.08 .06],[.05 .03],[.06 .02]);
 %subplot(2,2,1)
 axes(ha(1))
 plot(r_an, sig_r_an, r_num, sig_r_num, 'Linewidth', 1.5); 

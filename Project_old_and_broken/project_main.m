@@ -1,9 +1,8 @@
 
 % Material values: Aluminium
-E = 168E9;      % 015376 %[Pa] Elasticity, Youngs module
-rho = 21450;    % [kg/m^3] Density
-Poisson = 0.39; % Poissons ratio
-
+E = 68.950E9;       % 015376 %[Pa] Elasticity, Youngs module
+rho = 2.7E3;        % [kg/m^3] Density
+Poisson = 0.334;    % Poissons ratio
 
 Omega = 2*pi; % rad/s
 Ri = 0.1; % m
