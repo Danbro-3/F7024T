@@ -1,7 +1,0 @@
-% Model:              a4_Water.mph
-% Version:            COMSOL 5.3.0.223
-% Date:               Jul 18 2017, 19:18
-% Table:              Evaluation 2D - Interactive 2D values
-% x                                               y                                                 Value
-0.017991505563259125                              0.005891989916563034                              1.7590263044230108E-5
-0.03005099669098854                               0.0034693852066993713                             5.140343654467906E-5
