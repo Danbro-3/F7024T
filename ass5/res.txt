@@ -1,0 +1,20 @@
+a) V0neg
+* The vfield slows down after center region,
+	acts a bit crazy around the borders of the center region,
+	B0 sweep:
+	o magnitude slows down more relative to B0 size (!prop)
+	U0 sweep:
+	o Relative impact of center-region decrease with U0 size
+	  same decrease but lower relative impact on velocity?
+* Pressure increases until centerregion wher it is ~0.
+	Pressure starts at negative, decreases slightly until CR,
+	increases agressively inside CR, decreases slightly after CR
+	B0 sweep:
+	o Vastly increased magnitude with B0 (!prop)
+	U0 sweep:
+	o Slight decreases outside CR gets slightly more aggressive with higher U0,
+	o U0 = .9 starts to show signs of instability, likely due to it entering the
+		transition region to turbulence
+	o Different speeds has very low impact on the pressure.
+
+b) V0pos

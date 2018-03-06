@@ -31,21 +31,21 @@ legend('Analytic method', 'Numerical method');
 title('\bf{Stress in `$r$'' direction}', 'Interpreter','latex'); grid on
 %subplot(2,2,2)
 axes(ha(2))
-plot(r_an, sig_phi_an, r_num, sig_phi_num); 
+plot(r_an, sig_phi_an, r_num, sig_phi_num, 'Linewidth', 1.5); 
 xlabel('\bf{radius, $r$ [m]}', 'Interpreter','latex');
 ylabel('\bf{stress, $\sigma_{\phi}$ [Pa]}', 'Interpreter','latex'); 
 legend('Analytic method', 'Numerical method');
 title('\bf{Stress in $\phi$ direction}', 'Interpreter','latex'); grid on
 %subplot(2,2,3)
 axes(ha(3))
-plot(r_an, u_an, r_num, u_num); 
+plot(r_an, u_an, r_num, u_num, 'Linewidth', 1.5); 
 xlabel('\bf{radius, $r$ [m]}', 'Interpreter','latex');
 ylabel('\bf{Displacement [m]}', 'Interpreter','latex'); 
 legend('Analytic method', 'Numerical method', 'location', 'NorthWest');
 title('\bf{Displacement over `$r$'' direction}', 'Interpreter','latex'); grid on
 %subplot(2,2,4)
 axes(ha(4))
-plot(2:N_E_pot, E_pot_num);
+plot(2:N_E_pot, E_pot_num, 'Linewidth', 1.5);
 xlabel('\bf{Number of nodes, n}', 'Interpreter','latex');
 ylabel('\bf{energy, $E_P$}', 'Interpreter','latex');
 title('\bf{Total potential energy (numeric)}', 'Interpreter','latex'); grid on
