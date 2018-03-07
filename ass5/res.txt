@@ -18,3 +18,13 @@ a) V0neg
 	o Different speeds has very low impact on the pressure.
 
 b) V0pos
+
+
+FIX:
+* Edit V0pos_B-001,01,017_allfields.png to range: -.4,.4
+* Edit V0pos_U-001,3,6,9_allfields.png  to range: -.4,.4
+* Edit V0pos_U-006_allfields.png Zoom to fit [-1,1],[-.05,.05]
+* Get V0X_U,B-002.eps
+* Get V0X_v_B-first,last.eps
+* Get Velocity field streamline
+* Get V0neg_p_U001369
