@@ -25,7 +25,6 @@ end
 
 % Potential energy analytical 2
 function E_p2 = E_p_an2(r, rho, Omega, pois, E, Ri, Ry)
-    u = ((3+pois)/8)*(1-pois)*((rho*Omega^2)/E).*r.* ...
-        (Ri^2+Ry^2-((1+pois)/(3+pois)).*r.^2+((1+pois)/(1-pois))*((Ri^2*Ry^2)./r.^2));
+    u = ((3+pois)/8)*(1-pois)*((rho*Omega^2)/E).*r.*(Ri^2+Ry^2-((1+pois)/(3+pois)).*r.^2+((1+pois)/(1-pois))*((Ri^2*Ry^2)./r.^2));
     E_p2 = u .* rho * Omega^2 .* r.^2;
 end
